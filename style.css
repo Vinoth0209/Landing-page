@@ -1,0 +1,324 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior:smooth;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    height: 3rem;
+    width: 100vw;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+}
+nav ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style-type:none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+    background-color: darkred;
+}
+.landing-page{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./landing.jpg");
+    background-size: cover;
+}
+.temp{
+    height: 3rem;
+    width: 100vw;
+    background-color: #fff;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+.logo{
+     text-align: right;
+     width: 200px;
+     margin-right: 0% 10px 10px 0%;
+}
+.hi{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.section h2{
+    background-color: darkred;
+    text-align: center;
+}
+section .btn{ 
+    padding: 20px;
+    background-color: darkred;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    font-size: 30px;
+}
+section .btn a{
+    text-decoration: none;
+    color: white;
+}
+section .btn:hover{
+    background-color: red;
+    color: black;
+
+}
+.page2{
+    height: 100vh;
+    width: 100wh;
+}
+.facilities{
+    align-items: center;
+    text-align: center;
+    background-color: darkred;
+    color: #fff;
+}
+.image-grid{
+    background-image: url('page2.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.image-container img:hover{
+    background-color: darkred;
+    padding: 10px;
+}
+.image-container{
+    width: calc(25% -10px);
+    margin:5px;
+    text-align: center;
+}
+.image-container img{
+    width: 56.1%;
+    height: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.image-container h3{
+    text-shadow: #fff;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.doctors{ 
+    align-items: center;
+    text-align: center;
+    background-color: darkred;
+    color: #fff;
+}
+.page3{
+    height: 100vh;
+    width:100vw;
+    background-image: url(page3.jpg);
+    background-size: cover;
+    position: relative;
+}
+.page3 h1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkred;
+    font-weight: bolder;
+}
+.dept{
+    align-items: center;
+    text-align: center;
+    background-color: darkred;
+    color: #fff;
+}
+.image-grid2{
+    background-image: url(book2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5px;
+}
+.hello{
+    width: calc(25% -10px);
+    margin: 5px;
+    text-align: center;
+}
+.hello img{
+    width: 80.1%;
+    height: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    object-fit: cover;
+    transform: .2s;
+}
+.hello img:hover {
+    background-color: darkred;
+    padding: 10px;
+}
+.hello h3{
+    margin: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    align-items: center;
+    text-align: center;
+    background-color: darkred;
+    color: white;
+}
+.lastpage{
+    height: 94.5vh;
+    width: 100vw;
+    background-image: url('aboutpage.jpg');
+    background-size: cover;
+    font-size: large;
+}
+.lastpage h3{
+    color: darkred;
+}
+.lastpage P {
+    color: black;
+    font-size: large;
+    font-weight: 800;
+}
+.vanakam{
+    text-align: center;
+    padding: 5px;
+    text-align: center;
+    height: fit-content;
+    width: 10%;
+    background-color: darkred;
+    
+}
+.vanakam .btn{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+.vanakam .btn:hover{
+    background-color: red;
+    color: black;
+}
+.footer{
+    background-color: rgb(225, 63, 63);
+    padding: 20px;
+   
+}
+
+ul{
+    list-style: none;
+}
+.end{
+    max-width: 1170px;
+    background-color: red(225,63,63);
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25% ;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight:300;
+    color: darkred;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #fff;
+    padding: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: darkred;
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #fff;
+}
+/*responsive*/
+@media(max-width:767px){
+    .footer-col{
+        width: 50px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px) {
+    .footer-col{
+        width: 100px;  
+}
+}
+.footer-col1{
+    text-align: right;
+    color: #fff;
+
+}
+
+
+
+
+
+
+

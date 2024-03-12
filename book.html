@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK APPMENTOIN</title>
+    <link rel="stylesheet" href="bookstyle.css">
+</head>
+<body>
+    <div class="background" id="book">
+        <div class="booking-form">
+        <h1>BOOK APPOINMENT</h1>
+            <form action="index.html">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required><br>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" required><br>
+                <label for="phone">Phone no.</label>
+                <input type="number" name="phone" id="phone" required><br>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" required><br>
+                <label for="time">Timming</label>
+                <input type="time" name="time" id="time" required><br>
+                <button id="mybutton" type="submit">BOOK now</button>
+                <script>
+                    var button=document.getElementById("mybutton");
+                    button.addEventListener("click",function() {
+                        alert("your Appointment Conformed");
+                    });
+                </script>
+            </form>
+        
+    </div>
+    </div>
+</body>
+</html>
